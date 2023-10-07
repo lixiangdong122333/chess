@@ -7,10 +7,13 @@ import com.chess.engine.classic.pieces.Rook;
 
 import java.util.Objects;
 
+//移动对象
 public abstract class Move {
 
+    //棋盘
     protected final Board board;
     protected final int destinationCoordinate;
+    //移动的棋子
     protected final Piece movedPiece;
     protected final boolean isFirstMove;
 

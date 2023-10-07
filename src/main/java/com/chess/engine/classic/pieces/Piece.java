@@ -6,6 +6,7 @@ import com.chess.engine.classic.board.Move;
 
 import java.util.Collection;
 
+//棋子对象
 public abstract class Piece {
 
     final PieceType pieceType;

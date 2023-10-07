@@ -14,6 +14,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+//棋盘
 public final class Board {
 
     private final Map<Integer, Piece> boardConfig;

@@ -38,6 +38,7 @@ public final class Table extends Observable {
     private final BoardPanel boardPanel;
     private final MoveLog moveLog;
     private final GameSetup gameSetup;
+    //棋盘
     private Board chessBoard;
     private Move computerMove;
     private Piece sourceTile;
